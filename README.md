@@ -94,6 +94,7 @@ Old Snapshots      : 5
 Empty Buckets      : 1
 Est. Monthly Saving: $3.40 USD
 
+The index.html file in this repository is a sample output generated from a real AWS scan. Running the script will overwrite it with fresh data from your account.
 ---
 
 ## 📁 Project Structure
@@ -158,6 +159,19 @@ REGION             = "ap-south-1" # Your AWS region
 ```
 
 ---
+## Screenshots
+
+### Cost Optimization Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+### S3 Upload Verification
+
+![S3 Upload Verification](screenshots/s3_upload_verification.png)
+
+### Live S3 Hosted Website
+
+![Live S3 Website](screenshots/live_s3_website.png)
 
 ## 👤 About Me
 

@@ -15,6 +15,7 @@ from datetime import datetime, timezone
 
 # ── CONFIG ────────────────────────────────────────────────
 SNAPSHOT_AGE_DAYS   = 30          # Flag snapshots older than this
+# gp2 pricing for ap-south-1; gp3 is $0.08/GB — adjust per your region and volume type
 EBS_COST_PER_GB     = 0.10        # USD per GB-month (gp2 pricing)
 EC2_COST_PER_HOUR   = 0.0116      # USD/hr for t2.micro (stopped = still paying for EBS)
 REPORT_FILE         = "index.html"
